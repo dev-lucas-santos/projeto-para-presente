@@ -79,13 +79,15 @@ button.botao-enviar{
     margin-right: auto;
 }
 
-/* .mensagem {
+.texto {
     margin-top: 20px;
     font-size: 24px;
-    color: white;
-    text-align: center;    estava dando erro no campo p.texto
-} */
-
+    color: rgb(249, 249, 249);
+    text-align: center;   
+     box-shadow: 0 5px 15px rgba(8, 8, 8, 0.637);
+        border: solid 2px rgba(250, 248, 248, 0.103);
+        border-radius: 12px;
+      }
 
 
 /* ----------------- parte fotos juntas e houver -------------------------- */
@@ -130,7 +132,10 @@ border-radius: 10px;
         border-radius: 12px;
 }
 
-
+    .foto-4:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s;
+    }
 .mensagem-5 {
   display: flex;
   align-items: center;
@@ -150,7 +155,10 @@ border-radius: 10px;
         border: solid 2px rgba(250, 248, 248, 0.103);
         border-radius: 12px;
 }
-
+ .foto-5:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s;
+    }
 
 .mensagem-6 {
   display: flex;
@@ -171,7 +179,10 @@ border-radius: 10px;
         border: solid 2px rgba(250, 248, 248, 0.103);
         border-radius: 12px;
 }   
-
+ .foto-6:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s;
+    }
 
     .mensagem-7 {
   display: flex;
@@ -190,7 +201,12 @@ border-radius: 10px;
    font-size: 24px;
         box-shadow: 0 5px 15px rgba(8, 8, 8, 0.637);
         border: solid 2px rgba(250, 248, 248, 0.103);
-        border-radius: 12px;}
+        border-radius: 12px;
+      }
+       .foto-7:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s;
+    }
     
     .mensagem-8 {
   display: flex;
@@ -211,6 +227,10 @@ border-radius: 10px;
         border: solid 2px rgba(250, 248, 248, 0.103);
         border-radius: 12px;
 }
+ .foto-8:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s;
+    }
 .mensagem-9 {
   display: flex;
   align-items: center;
@@ -230,6 +250,10 @@ border-radius: 10px;
         border: solid 2px rgba(250, 248, 248, 0.103);
         border-radius: 12px;
 }
+ .foto-9:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s;
+    }
 .mensagem-10 {
   display: flex;
   align-items: center;
@@ -242,7 +266,10 @@ border-radius: 10px;
  border-radius: 10px;
       box-shadow: 0 5px 15px rgba(248, 247, 247, 0.2);
 }
-
+ .foto-10:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s;
+    }
 .texto-10 {
   font-size: 24px;
         box-shadow: 0 5px 15px rgba(8, 8, 8, 0.637);
@@ -270,7 +297,10 @@ border-radius: 10px;
         border: solid 2px rgba(250, 248, 248, 0.103);
         border-radius: 12px;
 }
-
+ .foto-11:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s;
+    }
 
 
 
