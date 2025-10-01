@@ -94,9 +94,13 @@ button.botao-enviar{
       margin-top: 30px;
     }
     .galeria img {
-      width: 300px;
+      width: 250px;
       border-radius: 10px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      box-shadow: 0 5px 15px rgba(248, 247, 247, 0.2);
+    }
+    .galeria:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s;
     }
   p.texto{
        font-size: 24px;
