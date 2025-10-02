@@ -192,6 +192,8 @@ border-radius: 10px;
   justify-content: center;
   gap: 30px; /* Espaço entre a foto e o texto */
   margin-top: 30px;
+         position: relative;
+  display: inline-block;
 }
 
 .foto-5 {
@@ -200,11 +202,18 @@ border-radius: 10px;
 }
 
 .texto-5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 192, 203, 0.8); /* fundo rosa claro semi-transparente */
+  color: #000000;
+  padding: 10px 20px;
+  border-radius: 12px;
   font-size: 24px;
-        box-shadow: 0 5px 15px rgba(8, 8, 8, 0.637);
-        border: solid 2px rgba(250, 248, 248, 0.103);
-        border-radius: 12px;
-}
+  text-align: center;
+  display: none; /* começa oculto */
+  z-index: 2;}
  .foto-5:hover {
       transform: scale(1.05);
       transition: transform 0.3s;
@@ -240,6 +249,8 @@ border-radius: 10px;
   justify-content: center;
   gap: 30px; /* Espaço entre a foto e o texto */
   margin-top: 30px;
+         position: relative;
+  display: inline-block;
 }
 
 .foto-7 {
@@ -248,11 +259,18 @@ border-radius: 10px;
 }
 
 .texto-7 {
-   font-size: 24px;
-        box-shadow: 0 5px 15px rgba(8, 8, 8, 0.637);
-        border: solid 2px rgba(250, 248, 248, 0.103);
-        border-radius: 12px;
-      }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 192, 203, 0.8); /* fundo rosa claro semi-transparente */
+  color: #000000;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 24px;
+  text-align: center;
+  display: none; /* começa oculto */
+  z-index: 2;}
        .foto-7:hover {
       transform: scale(1.05);
       transition: transform 0.3s;
@@ -287,6 +305,8 @@ border-radius: 10px;
   justify-content: center;
   gap: 30px; /* Espaço entre a foto e o texto */
   margin-top: 30px;
+         position: relative;
+  display: inline-block;
 }
 
 .foto-9 {
@@ -295,11 +315,18 @@ border-radius: 10px;
 }
 
 .texto-9 {
-   font-size: 24px;
-        box-shadow: 0 5px 15px rgba(8, 8, 8, 0.637);
-        border: solid 2px rgba(250, 248, 248, 0.103);
-        border-radius: 12px;
-}
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 192, 203, 0.8); /* fundo rosa claro semi-transparente */
+  color: #000000;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 24px;
+  text-align: center;
+  display: none; /* começa oculto */
+  z-index: 2;}
  .foto-9:hover {
       transform: scale(1.05);
       transition: transform 0.3s;
@@ -334,20 +361,36 @@ border-radius: 10px;
   justify-content: center;
   gap: 30px; /* Espaço entre a foto e o texto */
   margin-top: 30px;
+        position: relative;
+  display: inline-block;
 }
 
 .foto-11 {
  border-radius: 10px;
       box-shadow: 0 5px 15px rgba(248, 247, 247, 0.2);
+       position: relative;
+  display: inline-block;
+      
 }
 
 .texto-11 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 192, 203, 0.8); /* fundo rosa claro semi-transparente */
+  color: #000000;
+  padding: 10px 20px;
+  border-radius: 12px;
   font-size: 24px;
-        box-shadow: 0 5px 15px rgba(8, 8, 8, 0.637);
-        border: solid 2px rgba(250, 248, 248, 0.103);
-        border-radius: 12px;
-  }
-
+  text-align: center;
+  display: none; /* começa oculto */
+  z-index: 2;}
+  
+.foto-11:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s;
+    }
 /* --------------- rodape --------------------  */
 
   footer{
