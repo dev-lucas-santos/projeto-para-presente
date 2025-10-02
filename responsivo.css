@@ -1,0 +1,51 @@
+
+
+/* Responsividade para telas até 600px */
+@media (max-width: 375px) {
+  body {
+    min-width: 100vw;
+    padding: 10px;
+  }
+
+  h1.titulo, h1.coraçao {
+    font-size: 24px;
+  }
+
+  p, .texto-4, .texto-5, .texto-6, .texto-7, .texto-8, .texto-9, .texto-10, .texto-11 {
+    font-size: 16px;
+  }
+
+  .mensagem-4,
+  .mensagem-5,
+  .mensagem-6,
+  .mensagem-8,
+  .mensagem-9,
+  .mensagem-10,
+  .mensagem-11 {
+    flex-direction: column;
+    gap: 10px;
+    align-items: stretch;
+  }
+
+  .foto-4,
+  .foto-5,
+  .foto-6,
+  .foto-7,
+  .foto-8,
+  .foto-9,
+  .foto-10,
+  .foto-11 {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  footer {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 0;
+  }
+}
+
