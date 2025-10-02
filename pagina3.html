@@ -8,9 +8,33 @@
 <link rel="stylesheet" href="reset.css">
 <link rel="stylesheet" href="index.html">
 <link rel="stylesheet" href="pagina2.html">
+ <script>
+        function gerarMensagem() {
+            const mensagens = [
+                "Acredite em você!",
+                "Você é capaz de conquistar grandes coisas.",
+                "Nunca desista dos seus sonhos.",
+                "O sucesso é a soma de pequenos esforços diários.",
+                "Seja a mudança que você quer ver no mundo."
+            ];
+            const indice = Math.floor(Math.random() * mensagens.length);
+            document.getElementById('mensagem').innerText = mensagens[indice];
+        }
+    </script>
+
 </head>
 <body>
-    <form action="pagina4.html" method="post">
+
+  <h1>Tenho uma mensagem pra você!</h1>
+    <br>
+    <p>Clique no botão abaixo para gerar uma mensagem !!</p>
+    <br>
+    <button onclick="gerarMensagem()">Gerar mensagem </button>
+    <p id="mensagem"></p>
+<br>
+<br>
+<br>
+    <form class="formulario" action="pagina4.html" method="post">
 
         <label for="mensagem">Como você está se sentindo hoje:</label>
 
