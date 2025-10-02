@@ -15,9 +15,12 @@
   <br>
 
   <div class="texto">
-    <p >Mesmo estando distante meu coração ainda é seu! desde dia em que te conheci ,
+    <p class caixa-tetxo>Mesmo estando distante meu coração ainda é seu! desde dia em que te conheci ,
       apesar de não estarmos juntos , quero te dizer que nosso para sempre ainda vai existir dentro 
-      de mim e mesmo longe meu coração sempre vai ser seu !! afinal eu te amo para sempre !
+      de mim e mesmo longe meu coração sempre vai ser seu !! afinal eu te amo para sempre , ainda lembro e revejo cada cena na minha cabeça , 
+      coisas que acho que você nem se lembra , quando olho para as fotos consigo ver cada momento e por incrivel que pareça ainda sentir as mesmas sensações de antes 
+      um dia te perguntei se você tinha reparado no puta mulherão que se tornou e você disse que não , quero que veja o quanto que vovê cresceu e se tornou 
+      uma mulher linda,gostosa e incrivel.!
     </p>
 <br>
 <br>
@@ -35,72 +38,66 @@
 
 <div>
   <p class="texto">
-    texto aqui
+    cada foto é um momentoe e cada momento conta uma historia , esta na hora de descobrir elas? ache essas surpresas!
   </p>
 </div>
 <br>
 <br>
-  <!--  lembrar de transformar os videos em formato mp4 e trocar nas pastas -->
+   <!-- lembrar de transformar os videos em formato mp4 e trocar nas pastas feito -->
 
 <video src="src/videos/video1.mp4" width="100%" height="500" controls autoplay muted loop>
   <source class="video-1" src="src/videos/video1.mp4" type="video/mp4">
   <source class="video-1" src="src/videos/video1.ogg" type="video/ogg">
 </video>
-<div class="mensagem-10">
 
+
+<div class="mensagem-11">
+  <img src="src/imagens/foto11 (2).jpeg" width="350" height="450" class="foto-11" alt="Foto 11" onclick="mostrarTexto11()">
+  <p class="texto-11" id="texto-11" style="display: none;">Seu texto aqui</p>
+</div>
+
+<div class="mensagem-10">
   <p class="texto-10"> adicionar texto </p>
 <img class="foto-10" src="src/imagens/foto10.jpeg" alt="foto10" height="300">
-
 </div>
 
 <div class="mensagem-9">
-
-  <p class="texto-9"> adicionar texto </p>
-<img class="foto-9" src="src/imagens/foto9.jpeg" alt="foto9" height="400">
-
+  <img src="src/imagens/foto9.jpeg" width="300" height="480" class="foto-5" alt="Foto 5" onclick="mostrarTexto9()">
+  <p class="texto-9" id="texto-9" style="display: none;">Seu texto aqui</p>
 </div>
 
 
 <div class="mensagem-8">
-  
 <p class="texto-8"> adicionar texto </p>
-<img class="foto-8" src="src/imagens/foto8.jpeg" alt="foto8" height="400">
-
+<img class="foto-8" src="src/imagens/foto8.jpeg" alt="foto8"  height="400">
 </div>
 
 <div class="mensagem-7">
-
-  <p class="texto-7"> adicionar texto </p>
-<img class="foto-7" src="src/imagens/foto7.jpeg" alt="foto7" height="400">
-
+  <img src="src/imagens/foto7.jpeg" width="250" height="380" class="foto-7" alt="Foto 7" onclick="mostrarTexto7()">
+  <p class="texto-7" id="texto-7" style="display: none;">Seu texto aqui</p>
 </div>
 
 <div class="mensagem-6">
-
   <p class="texto-6"> adicionar texto </p>
 <img class="foto-6" src="src/imagens/foto6.jpeg" alt="foto6" height="400">
-
 </div>
+
 
 <div class="mensagem-5">
-
-  <p class="texto-5"> adicionar texto </p>
-<img class="foto-5" src="src/imagens/foto5.jpeg" alt="foto5" height="450">
-
+  <img src="src/imagens/foto5.jpeg" width="200" height="300" class="foto-5" alt="Foto 5" onclick="mostrarTexto5()">
+  <p class="texto-5" id="texto-5" style="display: none;">Seu texto aqui</p>
 </div>
+
 
 <div class="mensagem-4">
-
   <p class="texto-4"> adicionar texto </p>
 <img class="foto-4" src="src/imagens/foto4.jpeg" alt="foto4" width="450" height="300">
-
 </div>
 
+
 <div class="mensagem-11">
-
-  <p class="texto-11"> adicionar texto </p>
-<img class="foto-11" src="src/imagens/foto11 (2).jpeg" alt="foto11" width="200" height="400">
-
+  <img src="src/imagens/foto11 (2).jpeg" width="250" height="300" class="foto-11" alt="Foto 11" onclick="mostrarTexto11()">
+  <p class="texto-11" id="texto-11" style="display: none;">Seu texto aqui</p>
 </div>
 
 
@@ -113,10 +110,33 @@
 <button class="botao-proximo" onclick="window.location.href='pagina3.html'">Proximo</button>
 <button class="botao-voltar-pag3" onclick="window.location.href='index.html'">voltar</button>
 
+
+<!-- ----------------- funçao para abrir texto ao clicar na foto ------------------- -->
+
+<script>
+function mostrarTexto11() {
+  document.getElementById('texto-11').style.display = 'block';
+}
+  function mostrarTexto5() {
+  document.getElementById('texto-5').style.display = 'block';
+}
+
+function mostrarTexto7() {
+  document.getElementById('texto-7').style.display = 'block';}
+
+  function mostrarTexto9() {
+  document.getElementById('texto-9').style.display = 'block';
+}
+</script>
+
+
+
+
 </body>
 <footer>
-  <p class="rodape">Feito com 💖 por [mim]</p>
-<a  class="git-link" href="https://github.com/dev-lucas-santos">DEV-LUCAS-SANTOS</a>  
+  <a class="rodape">Feito com 💖 por [mim]</a>
+  <br>
+<a  class="rodape" href="https://github.com/dev-lucas-santos">DEV-LUCAS-SANTOS</a>  
 </footer>
 
 </html>

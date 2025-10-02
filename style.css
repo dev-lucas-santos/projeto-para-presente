@@ -9,6 +9,8 @@ body{
 }
 
 
+/* ---------------- tetxto e titulos -------------- */
+
 h1.titulo{
     color: rgb(12, 12, 12);
     font-size: 32px;
@@ -24,6 +26,15 @@ h1.coraçao {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+p{
+   font-size: 24px;
+        box-shadow: 0 5px 15px rgba(8, 8, 8, 0.637);
+        border: solid 2px rgba(250, 248, 248, 0.103);
+        border-radius: 12px;
+      }
+
+
+/* --------------- botoes -------------------- */
 
 
 button.botao{
@@ -123,7 +134,7 @@ button.botao-voltar-pag3{
 button.botao-voltar-pag3:hover{transform: scale(1.05);
       transition: transform 0.3s;}
 
-
+  /* ------ fotos juntas -----------------  */
 /* .mensagem {
     margin-top: 20px;
     font-size: 24px;
@@ -148,7 +159,7 @@ button.botao-voltar-pag3:hover{transform: scale(1.05);
       transition: transform 0.3s;
     }
 
-/* --------------------- parte fotos soltas e houver -------------------------- */
+/* --------------------- parte fotos soltas e houver com tetxos -------------------------- */
 
 
 .mensagem-4 {
@@ -337,21 +348,20 @@ border-radius: 10px;
         border-radius: 12px;
   }
 
+/* --------------- rodape --------------------  */
+
   footer{
+    height: 60px;
     margin-top: 50px;
     margin-bottom: 0px;
-    font-size: 14px;
+    font-size: 24px;
     background-color: rgb(255, 255, 255);
     text-align: center;
     min-width: 100%;
   }
-  footer.rodape{
-    margin-top: 50px;
-    margin-bottom: 20px;
-    font-size: 14px;
-    color: rgb(12, 12, 12);
-    text-align: center;
-  }
+
+
+/* ------------- mensagens do botao gerador de msnagens ---------------- */
 
   .mensagem-gerada {
     margin-top: 20px;
