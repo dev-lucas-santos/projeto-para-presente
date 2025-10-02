@@ -3,12 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caixa de texto</title>
     <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="reset.css">
-<link rel="stylesheet" href="index.html">
-<link rel="stylesheet" href="pagina2.html">
- <script>
+    <title>Você merece saber que é especial todos os dias</title>
+    <script class="mensagem-gerada " >
         function gerarMensagem() {
             const mensagens = [
                 "Acredite em você!",
@@ -21,26 +19,14 @@
             document.getElementById('mensagem').innerText = mensagens[indice];
         }
     </script>
-
 </head>
 <body>
+    <h1>Tenho uma mensagem para você!</h1>
+    <p>Desbloqueie todo o seu potencial!</p>
+    <button class="botao" onclick="gerarMensagem()">Gerar mensagem </button>
+    <p class="mensagem-gerada" id="mensagem"></p>
 
-  <h1>Tenho uma mensagem pra você!</h1>
-    <br>
-    <p>Clique no botão abaixo para gerar uma mensagem !!</p>
-    <br>
-    <button onclick="gerarMensagem()">Gerar mensagem </button>
-    <p id="mensagem"></p>
-<br>
-<br>
-<br>
-    <form class="formulario" action="pagina4.html" method="post">
+<button class="botao-voltar-pag3" onclick="window.location.href='pagina2.html'">voltar</button>
 
-        <label for="mensagem">Como você está se sentindo hoje:</label>
-
-        <!-- talvez adicionar um link externo para que a mensagem seja enviada para o whatsapp -->
-        <textarea class="caixa-texto" id="mensagem" name="mensagem" rows="4" cols="50"></textarea>
-        <button class="botao-enviar" type="submit" href="https://wa.me/5511999955514?text=como me sinto" target="_blank">Enviar</button>
-           <button class="botao-voltar" type="button" onclick="window.location.href='pagina2.html'">voltar</button>
 </body>
 </html>

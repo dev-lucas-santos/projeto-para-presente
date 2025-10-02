@@ -5,6 +5,7 @@ body{
   justify-content: center; /* Centraliza verticalmente */
   align-items: center;     /* Centraliza horizontalmente */
   min-height: 100vh;
+  min-width: 100vh;
 }
 
 
@@ -37,6 +38,20 @@ button.botao{
     margin-left: auto;
     margin-right: auto;
 }
+
+button.botao-inicio{
+    background-color: white;
+    color: rgb(248, 162, 177);
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 150px;
+    margin-bottom: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 button.botao-proximo{
     background-color: white;
     color: rgb(248, 162, 177);
@@ -65,6 +80,24 @@ button.botao-voltar{
     left: 35%;
     right: 100vh;
 }
+button.botao-voltar-pag3{
+    background-color: rgba(243, 240, 240, 0.219);
+    color: rgba(27, 27, 27, 0.89);
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-bottom: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 35%;
+    right: 80vh;
+  
+   
+}
 
 button.botao-enviar{
     background-color: white;
@@ -79,12 +112,18 @@ button.botao-enviar{
     margin-right: auto;
 }
 
-/* .mensagem {
+.texto {
     margin-top: 20px;
     font-size: 24px;
-    color: white;
-    text-align: center;    estava dando erro no campo p.texto
-} */
+    color: rgb(249, 249, 249);
+    text-align: center;   
+     box-shadow: 0 5px 15px rgba(8, 8, 8, 0.637);
+        border: solid 2px rgba(250, 248, 248, 0.103);
+        border-radius: 12px;
+      }
+
+
+/* ----------------- parte fotos juntas e houver -------------------------- */
 
  .galeria {
       display: flex;
@@ -94,7 +133,7 @@ button.botao-enviar{
       margin-top: 30px;
     }
     .galeria img {
-      width: 250px;
+      width: 350px;
       border-radius: 10px;
       box-shadow: 0 5px 15px rgba(248, 247, 247, 0.2);
     }
@@ -102,16 +141,192 @@ button.botao-enviar{
       transform: scale(1.05);
       transition: transform 0.3s;
     }
-  p.texto{
-       font-size: 24px;
+
+/* --------------------- parte fotos soltas e houver -------------------------- */
+
+
+.mensagem-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px; /* Espaço entre a foto e o texto */
+  margin-top: 30px;
+}
+
+.foto-4 {
+border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(248, 247, 247, 0.2);
+}
+
+.texto-4 {
+  font-size: 24px;
         box-shadow: 0 5px 15px rgba(8, 8, 8, 0.637);
         border: solid 2px rgba(250, 248, 248, 0.103);
         border-radius: 12px;
-  }
+}
 
-  .formulario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
+    .foto-4:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s;
+    }
+.mensagem-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px; /* Espaço entre a foto e o texto */
+  margin-top: 30px;
+}
+
+.foto-5 {
+  border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(248, 247, 247, 0.2);
+}
+
+.texto-5 {
+  font-size: 24px;
+        box-shadow: 0 5px 15px rgba(8, 8, 8, 0.637);
+        border: solid 2px rgba(250, 248, 248, 0.103);
+        border-radius: 12px;
+}
+ .foto-5:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s;
+    }
+
+.mensagem-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px; /* Espaço entre a foto e o texto */
+  margin-top: 30px;
+}
+
+.foto-6 {
+ border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(248, 247, 247, 0.2);
+}
+
+.texto-6 {
+   font-size: 24px;
+        box-shadow: 0 5px 15px rgba(8, 8, 8, 0.637);
+        border: solid 2px rgba(250, 248, 248, 0.103);
+        border-radius: 12px;
+}   
+ .foto-6:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s;
+    }
+
+    .mensagem-7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px; /* Espaço entre a foto e o texto */
+  margin-top: 30px;
+}
+
+.foto-7 {
+  border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(248, 247, 247, 0.2);
+}
+
+.texto-7 {
+   font-size: 24px;
+        box-shadow: 0 5px 15px rgba(8, 8, 8, 0.637);
+        border: solid 2px rgba(250, 248, 248, 0.103);
+        border-radius: 12px;
+      }
+       .foto-7:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s;
+    }
+    
+    .mensagem-8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px; /* Espaço entre a foto e o texto */
+  margin-top: 30px;
+}
+
+.foto-8 {
+ border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(248, 247, 247, 0.2);
+}
+
+.texto-8 {
+ font-size: 24px;
+        box-shadow: 0 5px 15px rgba(8, 8, 8, 0.637);
+        border: solid 2px rgba(250, 248, 248, 0.103);
+        border-radius: 12px;
+}
+ .foto-8:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s;
+    }
+.mensagem-9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px; /* Espaço entre a foto e o texto */
+  margin-top: 30px;
+}
+
+.foto-9 {
+  border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(248, 247, 247, 0.2);
+}
+
+.texto-9 {
+   font-size: 24px;
+        box-shadow: 0 5px 15px rgba(8, 8, 8, 0.637);
+        border: solid 2px rgba(250, 248, 248, 0.103);
+        border-radius: 12px;
+}
+ .foto-9:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s;
+    }
+.mensagem-10 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px; /* Espaço entre a foto e o texto */
+  margin-top: 30px;
+}
+
+.foto-10 {
+ border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(248, 247, 247, 0.2);
+}
+ .foto-10:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s;
+    }
+.texto-10 {
+  font-size: 24px;
+        box-shadow: 0 5px 15px rgba(8, 8, 8, 0.637);
+        border: solid 2px rgba(250, 248, 248, 0.103);
+        border-radius: 12px;
+}
+
+
+.mensagem-11 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px; /* Espaço entre a foto e o texto */
+  margin-top: 30px;
+}
+
+.foto-11 {
+ border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(248, 247, 247, 0.2);
+}
+
+.texto-11 {
+  font-size: 24px;
+        box-shadow: 0 5px 15px rgba(8, 8, 8, 0.637);
+        border: solid 2px rgba(250, 248, 248, 0.103);
+        border-radius: 12px;
   }
