@@ -1,7 +1,7 @@
 
 
-/* Responsividade para telas até 600px */
-@media (max-width: 375px) {
+/* Responsividade para telas até 375px */
+@media (max-width: 375px), (max-width: 667px),(max-width: 768px),(max-width: 1024px) {
   body {
     min-width: 100vw;
     padding: 10px;
@@ -47,5 +47,51 @@
     text-align: center;
     padding: 10px 0;
   }
-}
 
+
+  h1.titulo, h1.coraçao {
+    font-size: 24px;
+  }
+
+  p, .texto, .texto-4, .texto-5, .texto-6, .texto-7, .texto-8, .texto-9, .texto-10, .texto-11 {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .galeria {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+  }
+
+  .galeria img,
+  .foto-1, .foto-2, .foto-3 {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  video, .video-1 {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-top: 10px;
+  }
+
+  footer {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 0;
+  }
+}
